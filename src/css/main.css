@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color:ghostwhite;
+    font-family: 'Roboto', 'Raleway', sans-serif;
+    color: #63567c;
+}
+a{
+    text-decoration: none;
+    padding: 0;
+    color: #63567c;
+}
+
+h1 {
+    font-size: 35px;
+    margin: 0;
+    padding-bottom: 0;
+}
+
+h2 {
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+
+.header {
+    background-image: linear-gradient(to top, rgba(47, 48, 58, 0.0), rgba(47, 48, 58, 0.0)),
+            url("../images/snowfall-201496_1280.jpg");
+        background-size: cover;
+        background-position: top;
+        background-repeat: no-repeat;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form > button{
+    height: 20px;
+}
+
+.iconka {
+    height: 40px;
+}
+
+.search-form__icon {
+    fill: #60676a;
+    transition: 0.55s;
+    stroke-width: 1px;
+}
+
+.btn {
+    cursor: pointer;
+    height: 30px;
+    width: 100px;
+    background-color: #63567c;
+    border-radius: 20px;
+    border: 0px solid;
+}
+
+.btn:hover {
+    background-color: #A5ABCF;
+}
+
+.search-form__input {
+    height: 30px;
+    width: 250px;
+    background-color: white;
+    border-radius: 10px;
+    padding-left: 15px;
+    border: 1px solid #63567c;
+}
+
+.search-form__input::placeholder{
+    color:#A5ABCF;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0 auto;
+    margin-top: 20px;
+    gap: 5px;
+}
+.gallery__item{
+    width: 300px;
+}
+
+.gallery__item:hover {
+    transform: scale(1.10);
+}
+
+.gallery__figure{
+    border-radius: 5px;
+    background-color: #bdc7ff;
+    width: 300px;
+}
+.gallery__figure:hover {
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+        transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.gallery__img {
+    width: 300px;
+    height: 180px;
+    overflow: hidden;
+}
+
+.gallery__figcaption {
+    display: flex;
+    font-size: 10px;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 0 15px 0;
+    width: 300px;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 auto;
+}
+
+.btn-to-top {
+position: fixed;
+    left: 95%;
+    top: 95%;
+    transform: translate(-50%, -50%);
+}

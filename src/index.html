@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en-EN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search for Images - powered by Pixabay API</title>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="header__title">Search for Images</h1>
+      <h2 class="header__undertitle">- powered by Pixabay</h2>
+      <form class="search-form" id="search-form">
+        <input
+          type="text"
+          class="search-form__input"
+          name="searchQuery"
+          autocomplete="off"
+          placeholder="Search images..."
+        />
+        <button class="btn" type="submit">Search</button>
+      </form>
+
+    </header>
+    <main>
+      <div class="gallery">
+        <!-- Obraz karty -->
+      </div>
+      <button type="button" class="btn load-more">Load more</button>
+    </main>
+    <footer class="footer">
+      <button type="button" class="btn btn-to-top">Go top</button>
+    </footer>
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>
